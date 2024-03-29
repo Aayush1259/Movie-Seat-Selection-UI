@@ -4,9 +4,9 @@ Display movie choices and seats in a theater to select from in order to purchase
 
 # Project Specifications:
 
- Display UI with movie select, seats, legend & seat info
- User can select a movie/price
- User can select/deselect seats
- User can not select occupied seats
- Number of seats and price will update
- Save seats, movie and price to local storage so that UI is still populated on refresh
+    1.Display UI with movie select, seats, legend & seat info
+    2.User can select a movie/price
+    3.User can select/deselect seats
+    4.User can not select occupied seats
+    5.Number of seats and price will update
+    6.Save seats, movie and price to local storage so that UI is still populated on refresh
