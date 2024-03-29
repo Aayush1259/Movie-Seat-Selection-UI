@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #000; /* Dark background color */
+  background-color: #000;
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -17,8 +17,7 @@ body {
 }
 
 .movie-container {
-  margin-bottom: 20px; /* Adjusted margin for better spacing */
-}
+  margin-bottom: 20px;
 
 .movie-container label {
   font-weight: bold;
@@ -30,7 +29,7 @@ body {
   border-radius: 5px;
   font-size: 16px;
   margin-left: 10px;
-  padding: 5px 15px; /* Adjusted padding for better appearance */
+  padding: 5px 15px;
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
@@ -46,8 +45,8 @@ body {
   height: 30px;
   width: 35px;
   margin: 3px;
-  font-size: 18px; /* Adjusted font size for better fit */
-  border-radius: 8px; /* Rounded corners for all seats */
+  font-size: 18px;
+  border-radius: 8px;
 }
 
 .seat.selected {
@@ -55,12 +54,12 @@ body {
 }
 
 .seat.sold {
-  background-color: #ccc; /* Adjusted color for sold seats */
+  background-color: #ccc;
 }
 
 .seat:not(.sold):hover {
   cursor: pointer;
-  transform: scale(1.1); /* Slightly decreased scaling on hover */
+  transform: scale(1.1);
 }
 
 .showcase {
@@ -89,12 +88,12 @@ body {
 }
 
 .screen {
-  background-color: #1a1a1a; /* Dark background color */
+  background-color: #1a1a1a;
   height: 120px;
   width: 100%;
   margin: 15px 0;
-  perspective: 920px; /* Added perspective for 3D effect */
-  position: relative; /* Added position relative for pseudo-element positioning */
+  perspective: 920px;
+  position: relative;
 }
 
 .screen::before {
@@ -104,10 +103,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff; /* White color for the screen */
+  background-color: #fff;
   box-shadow: 0 3px 10px rgba(255, 255, 255, 0.7);
-  transform: rotateX(-30deg) translateY(-10px); /* Adjusted rotation for better perspective */
-  border-radius: 10px; /* Added border-radius for rounded corners */
+  transform: rotateX(-30deg) translateY(-10px);
+  border-radius: 10px;
 }
 
 p.text {
@@ -115,5 +114,5 @@ p.text {
 }
 
 p.text span {
-  color: #9ef89e; /* Adjusted color for consistency */
+  color: #9ef89e;
 }
