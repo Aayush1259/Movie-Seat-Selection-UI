@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.movie-container {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+}
+
+#movie {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.screen {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.seats-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  background-color: #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.seat.selected {
+  background-color: #007bff;
+}
+
+.seat.sold {
+  background-color: #dc3545;
+}
+
+.text {
+  text-align: center;
+  margin-top: 20px;
+}
